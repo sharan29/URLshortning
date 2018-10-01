@@ -5,16 +5,16 @@
   "engines": {
     "node": "6.11.1"
   },
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
-  },
+  "main": "index.js",  
   
   "devDependencies": {
     "nodemon": "^1.12.1",
     "request": "^2.81.0",
     "tape": "^4.7.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
